@@ -20,113 +20,60 @@ Blockly.Msg["WORKSPACE_COMMENT_DEFAULT_TEXT"] = "Dire quelque chose…";
 Blockly.Msg.ARD_VAR_AS = "";
 Blockly.Msg.ARD_VAR_AS_TIP = "";
 
-// Math
-Blockly.Msg["MATH_ADDITION_SYMBOL"] = "+"; // untranslated
-Blockly.Msg["MATH_ARITHMETIC_HELPURL"] = "https://fr.wikipedia.org/wiki/Arithmetique";
-Blockly.Msg["MATH_ARITHMETIC_TOOLTIP_ADD"] = "Renvoie la somme des deux nombres.";
-Blockly.Msg["MATH_ARITHMETIC_TOOLTIP_DIVIDE"] = "Renvoie le quotient des deux nombres.";
-Blockly.Msg["MATH_ARITHMETIC_TOOLTIP_MINUS"] = "Renvoie la différence des deux nombres.";
-Blockly.Msg["MATH_ARITHMETIC_TOOLTIP_MULTIPLY"] = "Renvoie le produit des deux nombres.";
-Blockly.Msg["MATH_ARITHMETIC_TOOLTIP_POWER"] = "Renvoie le premier nombre élevé à la puissance du second.";
-Blockly.Msg["MATH_ATAN2_HELPURL"] = "https://fr.wikipedia.org/wiki/Atan2";
-Blockly.Msg["MATH_ATAN2_TITLE"] = "atan2 de X:%1 Y:%2";
-Blockly.Msg["MATH_ATAN2_TOOLTIP"] = "Renvoie l'arc tangente du point (X, Y) en degrés entre -180 et 180.";
-Blockly.Msg["MATH_TRANSFORM_TITLE"] = "transformer la valeur %1 de [ %2 à %3 ] vers [ %4 à %5 ]";
-Blockly.Msg["MATH_TRANSFORM_TOOLTIP"] = "transform a value from an array given [min;max] to another array [min;max]";
-Blockly.Msg["MATH_CHANGE_HELPURL"] = "https://fr.wikipedia.org/wiki/Idiome_de_programmation";
-Blockly.Msg["MATH_CHANGE_TITLE"] = "incrémenter %1 de %2";
-Blockly.Msg["MATH_CHANGE_TOOLTIP"] = "Ajouter un nombre à la variable '%1'.";
-Blockly.Msg["MATH_CONSTANT_HELPURL"] = "https://fr.wikipedia.org/wiki/Table_de_constantes_math%C3%A9matiques";
-Blockly.Msg["MATH_CONSTANT_TOOLTIP"] = "Renvoie une des constantes courantes : π (3.141…), e (2.718…), φ (1.618…), sqrt(2) (1.414…), sqrt(½) (0.707…), ou ∞ (infini).";
-Blockly.Msg["MATH_CONSTRAIN_HELPURL"] = "https://en.wikipedia.org/wiki/Clamping_(graphics)"; // untranslated
-Blockly.Msg["MATH_CONSTRAIN_TITLE"] = "contraindre %1 entre %2 et %3";
-Blockly.Msg["MATH_CONSTRAIN_TOOLTIP"] = "Contraindre un nombre à être entre les limites spécifiées (incluses).";
-Blockly.Msg["MATH_DIVISION_SYMBOL"] = "÷"; // untranslated
-Blockly.Msg["MATH_IS_DIVISIBLE_BY"] = "est divisible par";
-Blockly.Msg["MATH_IS_EVEN"] = "est pair";
-Blockly.Msg["MATH_IS_NEGATIVE"] = "est négatif";
-Blockly.Msg["MATH_IS_ODD"] = "est impair";
-Blockly.Msg["MATH_IS_POSITIVE"] = "est positif";
-Blockly.Msg["MATH_IS_PRIME"] = "est premier";
-Blockly.Msg["MATH_IS_TOOLTIP"] = "Vérifier si un nombre est pair, impair, premier, entier, positif, négatif, ou s’il est divisible par un certain nombre. Renvoie vrai ou faux.";
-Blockly.Msg["MATH_IS_WHOLE"] = "est entier";
-Blockly.Msg["MATH_MODULO_HELPURL"] = "https://fr.wikipedia.org/wiki/Modulo_(op%C3%A9ration)";
-Blockly.Msg["MATH_MODULO_TITLE"] = "reste de %1 ÷ %2";
-Blockly.Msg["MATH_MODULO_TOOLTIP"] = "Renvoyer le reste de la division euclidienne des deux nombres.";
-Blockly.Msg["MATH_MULTIPLICATION_SYMBOL"] = "×"; // untranslated
-Blockly.Msg["MATH_NUMBER_HELPURL"] = "https://fr.wikipedia.org/wiki/Nombre";
-Blockly.Msg["MATH_NUMBER_TOOLTIP"] = "Un nombre.";
-Blockly.Msg["MATH_ONLIST_HELPURL"] = ""; // untranslated
-Blockly.Msg["MATH_ONLIST_OPERATOR_AVERAGE"] = "moyenne de la liste";
-Blockly.Msg["MATH_ONLIST_OPERATOR_MAX"] = "maximum de la liste";
-Blockly.Msg["MATH_ONLIST_OPERATOR_MEDIAN"] = "médiane de la liste";
-Blockly.Msg["MATH_ONLIST_OPERATOR_MIN"] = "minimum de la liste";
-Blockly.Msg["MATH_ONLIST_OPERATOR_MODE"] = "majoritaires de la liste";
-Blockly.Msg["MATH_ONLIST_OPERATOR_RANDOM"] = "élément aléatoire de la liste";
-Blockly.Msg["MATH_ONLIST_OPERATOR_STD_DEV"] = "écart-type de la liste";
-Blockly.Msg["MATH_ONLIST_OPERATOR_SUM"] = "somme de la liste";
-Blockly.Msg["MATH_ONLIST_TOOLTIP_AVERAGE"] = "Renvoyer la moyenne (arithmétique) des valeurs numériques dans la liste.";
-Blockly.Msg["MATH_ONLIST_TOOLTIP_MAX"] = "Renvoyer le plus grand nombre dans la liste.";
-Blockly.Msg["MATH_ONLIST_TOOLTIP_MEDIAN"] = "Renvoyer le nombre médian de la liste.";
-Blockly.Msg["MATH_ONLIST_TOOLTIP_MIN"] = "Renvoyer le plus petit nombre dans la liste.";
-Blockly.Msg["MATH_ONLIST_TOOLTIP_MODE"] = "Renvoyer une liste des élément(s) le(s) plus courant(s) dans la liste.";
-Blockly.Msg["MATH_ONLIST_TOOLTIP_RANDOM"] = "Renvoyer un élément dans la liste au hasard.";
-Blockly.Msg["MATH_ONLIST_TOOLTIP_STD_DEV"] = "Renvoyer l’écart-type de la liste.";
-Blockly.Msg["MATH_ONLIST_TOOLTIP_SUM"] = "Renvoyer la somme de tous les nombres dans la liste.";
-Blockly.Msg["MATH_POWER_SYMBOL"] = "^"; // untranslated
-Blockly.Msg["MATH_RANDOM_FLOAT_HELPURL"] = "https://fr.wikipedia.org/wiki/G%C3%A9n%C3%A9rateur_de_nombres_al%C3%A9atoires";
-Blockly.Msg["MATH_RANDOM_FLOAT_TITLE_RANDOM"] = "fraction aléatoire";
-Blockly.Msg["MATH_RANDOM_FLOAT_TOOLTIP"] = "Renvoyer une fraction aléatoire entre 0.0 (inclus) et 1.0 (exclus).";
-Blockly.Msg["MATH_RANDOM_INT_HELPURL"] = "https://fr.wikipedia.org/wiki/G%C3%A9n%C3%A9rateur_de_nombres_al%C3%A9atoires";
-Blockly.Msg["MATH_RANDOM_INT_TITLE"] = "entier aléatoire entre %1 et %2";
-Blockly.Msg["MATH_RANDOM_INT_TOOLTIP"] = "Renvoyer un entier aléatoire entre les deux limites spécifiées, incluses.";
-Blockly.Msg["MATH_ROUND_HELPURL"] = "https://fr.wikipedia.org/wiki/Arrondi_(math%C3%A9matiques)";
-Blockly.Msg["MATH_ROUND_OPERATOR_ROUND"] = "arrondir";
-Blockly.Msg["MATH_ROUND_OPERATOR_ROUNDDOWN"] = "arrondir par défaut";
-Blockly.Msg["MATH_ROUND_OPERATOR_ROUNDUP"] = "arrondir par excès";
-Blockly.Msg["MATH_ROUND_TOOLTIP"] = "Arrondir un nombre au-dessus ou au-dessous.";
-Blockly.Msg["MATH_SINGLE_HELPURL"] = "https://fr.wikipedia.org/wiki/Racine_carree";
-Blockly.Msg["MATH_SINGLE_OP_ABSOLUTE"] = "valeur absolue";
-Blockly.Msg["MATH_SINGLE_OP_ROOT"] = "racine carrée";
-Blockly.Msg["MATH_SINGLE_TOOLTIP_ABS"] = "Renvoie la valeur absolue d’un nombre.";
-Blockly.Msg["MATH_SINGLE_TOOLTIP_EXP"] = "Renvoie e à la puissance d’un nombre.";
-Blockly.Msg["MATH_SINGLE_TOOLTIP_LN"] = "Renvoie le logarithme naturel d’un nombre.";
-Blockly.Msg["MATH_SINGLE_TOOLTIP_LOG10"] = "Renvoie le logarithme décimal d’un nombre.";
-Blockly.Msg["MATH_SINGLE_TOOLTIP_NEG"] = "Renvoie l’opposé d’un nombre";
-Blockly.Msg["MATH_SINGLE_TOOLTIP_POW10"] = "Renvoie 10 à la puissance d’un nombre.";
-Blockly.Msg["MATH_SINGLE_TOOLTIP_ROOT"] = "Renvoie la racine carrée d’un nombre.";
-Blockly.Msg["MATH_SUBTRACTION_SYMBOL"] = "-"; // untranslated
-Blockly.Msg["MATH_TRIG_ACOS"] = "acos"; // untranslated
-Blockly.Msg["MATH_TRIG_ASIN"] = "asin"; // untranslated
-Blockly.Msg["MATH_TRIG_ATAN"] = "atan"; // untranslated
-Blockly.Msg["MATH_TRIG_COS"] = "cos"; // untranslated
-Blockly.Msg["MATH_TRIG_HELPURL"] = "https://fr.wikipedia.org/wiki/Fonction_trigonom%C3%A9trique";
-Blockly.Msg["MATH_TRIG_SIN"] = "sin"; // untranslated
-Blockly.Msg["MATH_TRIG_TAN"] = "tan"; // untranslated
-Blockly.Msg["MATH_TRIG_TOOLTIP_ACOS"] = "Renvoie l’arccosinus d’un nombre.";
-Blockly.Msg["MATH_TRIG_TOOLTIP_ASIN"] = "Renvoie l’arcsinus d’un nombre.";
-Blockly.Msg["MATH_TRIG_TOOLTIP_ATAN"] = "Renvoie l’arctangente d’un nombre.";
-Blockly.Msg["MATH_TRIG_TOOLTIP_COS"] = "Renvoie le cosinus d’un angle en degrés (pas en radians).";
-Blockly.Msg["MATH_TRIG_TOOLTIP_SIN"] = "Renvoie le sinus d’un angle en degrés (pas en radians).";
-Blockly.Msg["MATH_TRIG_TOOLTIP_TAN"] = "Renvoie la tangente d’un angle en degrés (pas en radians).";
-Blockly.Msg["MATH_MAP"] = "Transformer la valeur %1 de [%2 à %3] vers [%4 à %5]";
-Blockly.Msg["MATH_MAP_TOOLTIP"] = "Permet de transformet une valeur proportionnellement. Par exemple 'Tranformer la valeur 5 de [0 à 10] vers [0 à 100]' va renvoyer 50.";
-Blockly.Msg["MATH_CHANGE_TITLE_ITEM"] = Blockly.Msg["VARIABLES_DEFAULT_NAME"];
+//categories
+var MSG = {
+    title: "Code",
+    blocks: "Blocs",
+    linkTooltip: "Sauvegarder et lier aux blocs.",
+    runTooltip: "Lancer le programme défini par les blocs dans l’espace de travail.",
+    badCode: "Erreur du programme :\n%1",
+    timeout: "Nombre maximum d’itérations d’exécution dépassé.",
+    trashTooltip: "Jeter tous les blocs.",
+    catDisplay: "Affichage",
+    catInput: "Entrées/Sorties",
+    catSensors: "Capteurs",
+    catCommunication: "Communication",
+    catActuators: "Actionneurs",
+    catRobots: "Robots",
+    catLogic: "Logique",
+    catLoops: "Boucles",
+    catMath: "Math",
+    catText: "Texte",
+    catLists: "Listes",
+    catColour: "Couleur",
+    catVariables: "Variables",
+    catFunctions: "Fonctions",
+    catAddblock: "Ajouter un bloc",
+    listVariable: "liste",
+    textVariable: "texte",
+    httpRequestError: "Il y a eu un problème avec la demande.",
+    linkAlert: "Partagez vos blocs grâce à ce lien:\n\n%1",
+    hashError: "Désolé, '%1' ne correspond à aucun programme sauvegardé.",
+    xmlError: "Impossible de charger le fichier de sauvegarde.  Peut être a t-il été créé avec une autre version de Blockly?",
+    badXml: "Erreur d’analyse du XML :\n%1\n\nSélectionner 'OK' pour abandonner vos modifications ou 'Annuler' pour continuer à modifier le XML."
+};
+
+Blockly.Msg["SUBCATEGORY_DISPLAYS"] = "Ecrans";
+Blockly.Msg["SUBCATEGORY_LED_MODULES"] = "Modules à LED";
+Blockly.Msg["SUBCATEGORY_ARDUINO"] = "Arduino";
+Blockly.Msg["SUBCATEGORY_EXTERNAL_MODULES"] = "Modules externes";
+Blockly.Msg["SUBCATEGORY_PINS"] = "Broches";
+Blockly.Msg["SUBCATEGORY_SERIAL_CONNECTION"] = "Connexion série";
+Blockly.Msg["SUBCATEGORY_DATA_LOGGING"] = "Enregistrement de données";
+Blockly.Msg["SUBCATEGORY_WIRELESS_COMMUNICATION"] = "Communication sans-fil";
+Blockly.Msg["SUBCATEGORY_SENSORS_GAS"] = "Capteurs de gaz";
+Blockly.Msg["SUBCATEGORY_SENSORS_CLIMATE"] = "Capteurs météorologiques";
+Blockly.Msg["SUBCATEGORY_SENSORS_SOUNDLIGHT"] = "Capteurs de son et lumière";
+Blockly.Msg["SUBCATEGORY_SENSORS_DISTANCEMOVEMENT"] = "Capteurs de distance et mouvement";
+Blockly.Msg["SUBCATEGORY_SENSORS_OTHER"] = "Autres capteurs";
+Blockly.Msg["SUBCATEGORY_ROBOTS_MBOT"] = "mBot - Modules de base";
+Blockly.Msg["SUBCATEGORY_ROBOTS_MAKEBLOCK_SENSORS"] = "Makeblock - Capteurs";
 
 // Text
 Blockly.Msg["TEXT_COMMENT"] = "Commentaire %1";
 Blockly.Msg["TEXT_COMMENT_TOOLTIP"] = "Ajouter un commentaire dans le code.";
 
 // Variables
-Blockly.Msg["VARIABLES_GET_CREATE_SET"] = "Créer 'fixer %1'";
-Blockly.Msg["VARIABLES_GET_HELPURL"] = "https://github.com/google/blockly/wiki/Variables#get"; // untranslated
-Blockly.Msg["VARIABLES_GET_TOOLTIP"] = "Renvoie la valeur de cette variable.";
-Blockly.Msg["VARIABLES_SET"] = "fixer %1 à %2";
-Blockly.Msg["VARIABLES_SET_CREATE_GET"] = "Créer 'obtenir %1'";
-Blockly.Msg["VARIABLES_SET_HELPURL"] = "https://github.com/google/blockly/wiki/Variables#set"; // untranslated
-Blockly.Msg["VARIABLES_SET_TOOLTIP"] = "Fixe cette variable pour qu’elle soit égale à la valeur de l’entrée.";
-Blockly.Msg["VARIABLE_ALREADY_EXISTS"] = "Une variable appelée '%1' existe déjà.";
-Blockly.Msg["VARIABLE_ALREADY_EXISTS_FOR_ANOTHER_TYPE"] = "Une variable nommée '%1' existe déjà pour un autre type : '%2'.";
 Blockly.Msg.VARIABLE_INCREMENT_ITEM = Blockly.Msg["VARIABLES_DEFAULT_NAME"];
 Blockly.Msg.VARIABLE_INCREMENT = "incrémenter %1 de %2";
 Blockly.Msg.VARIABLE_INCREMENT_TOOLTIP = "Ajouter un nombre à la variable '%1'.";

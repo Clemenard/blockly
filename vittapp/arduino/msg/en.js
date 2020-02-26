@@ -15,113 +15,60 @@ Blockly.Msg["WORKSPACE_COMMENT_DEFAULT_TEXT"] = "Say something...";
 Blockly.Msg.ARD_VAR_AS = "";
 Blockly.Msg.ARD_VAR_AS_TIP = "";
 
-// Math
-Blockly.Msg["MATH_ADDITION_SYMBOL"] = "+";
-Blockly.Msg["MATH_ARITHMETIC_HELPURL"] = "https://en.wikipedia.org/wiki/Arithmetic";
-Blockly.Msg["MATH_ARITHMETIC_TOOLTIP_ADD"] = "Return the sum of the two numbers.";
-Blockly.Msg["MATH_ARITHMETIC_TOOLTIP_DIVIDE"] = "Return the quotient of the two numbers.";
-Blockly.Msg["MATH_ARITHMETIC_TOOLTIP_MINUS"] = "Return the difference of the two numbers.";
-Blockly.Msg["MATH_ARITHMETIC_TOOLTIP_MULTIPLY"] = "Return the product of the two numbers.";
-Blockly.Msg["MATH_ARITHMETIC_TOOLTIP_POWER"] = "Return the first number raised to the power of the second number.";
-Blockly.Msg["MATH_ATAN2_HELPURL"] = "https://en.wikipedia.org/wiki/Atan2";
-Blockly.Msg["MATH_ATAN2_TITLE"] = "atan2 of X:%1 Y:%2";
-Blockly.Msg["MATH_ATAN2_TOOLTIP"] = "Return the arctangent of point (X, Y) in degrees from -180 to 180.";
-Blockly.Msg["MATH_CHANGE_HELPURL"] = "https://en.wikipedia.org/wiki/Programming_idiom#Incrementing_a_counter";
-Blockly.Msg["MATH_CHANGE_TITLE"] = "change %1 by %2";
-Blockly.Msg["MATH_CHANGE_TOOLTIP"] = "Add a number to variable '%1'.";
-Blockly.Msg["MATH_TRANSFORM_TITLE"] = "transform the value %1 of [from %2 to %3 ] in [from %4 to %5 ]";
-Blockly.Msg["MATH_TRANSFORM_TOOLTIP"] = "transform a value contained in [from min to max] with [from min to max].";
-Blockly.Msg["MATH_CONSTANT_HELPURL"] = "https://en.wikipedia.org/wiki/Mathematical_constant";
-Blockly.Msg["MATH_CONSTANT_TOOLTIP"] = "Return one of the common constants: π (3.141…), e (2.718…), φ (1.618…), sqrt(2) (1.414…), sqrt(½) (0.707…), or ∞ (infinity).";
-Blockly.Msg["MATH_CONSTRAIN_HELPURL"] = "https://en.wikipedia.org/wiki/Clamping_(graphics)";
-Blockly.Msg["MATH_CONSTRAIN_TITLE"] = "constrain %1 low %2 high %3";
-Blockly.Msg["MATH_CONSTRAIN_TOOLTIP"] = "Constrain a number to be between the specified limits (inclusive).";
-Blockly.Msg["MATH_DIVISION_SYMBOL"] = "÷";
-Blockly.Msg["MATH_IS_DIVISIBLE_BY"] = "is divisible by";
-Blockly.Msg["MATH_IS_EVEN"] = "is even";
-Blockly.Msg["MATH_IS_NEGATIVE"] = "is negative";
-Blockly.Msg["MATH_IS_ODD"] = "is odd";
-Blockly.Msg["MATH_IS_POSITIVE"] = "is positive";
-Blockly.Msg["MATH_IS_PRIME"] = "is prime";
-Blockly.Msg["MATH_IS_TOOLTIP"] = "Check if a number is an even, odd, prime, whole, positive, negative, or if it is divisible by certain number. Returns true or false.";
-Blockly.Msg["MATH_IS_WHOLE"] = "is whole";
-Blockly.Msg["MATH_MODULO_HELPURL"] = "https://en.wikipedia.org/wiki/Modulo_operation";
-Blockly.Msg["MATH_MODULO_TITLE"] = "remainder of %1 ÷ %2";
-Blockly.Msg["MATH_MODULO_TOOLTIP"] = "Return the remainder from dividing the two numbers.";
-Blockly.Msg["MATH_MULTIPLICATION_SYMBOL"] = "×";
-Blockly.Msg["MATH_NUMBER_HELPURL"] = "https://en.wikipedia.org/wiki/Number";
-Blockly.Msg["MATH_NUMBER_TOOLTIP"] = "A number.";
-Blockly.Msg["MATH_ONLIST_HELPURL"] = "";
-Blockly.Msg["MATH_ONLIST_OPERATOR_AVERAGE"] = "average of list";
-Blockly.Msg["MATH_ONLIST_OPERATOR_MAX"] = "max of list";
-Blockly.Msg["MATH_ONLIST_OPERATOR_MEDIAN"] = "median of list";
-Blockly.Msg["MATH_ONLIST_OPERATOR_MIN"] = "min of list";
-Blockly.Msg["MATH_ONLIST_OPERATOR_MODE"] = "modes of list";
-Blockly.Msg["MATH_ONLIST_OPERATOR_RANDOM"] = "random item of list";
-Blockly.Msg["MATH_ONLIST_OPERATOR_STD_DEV"] = "standard deviation of list";
-Blockly.Msg["MATH_ONLIST_OPERATOR_SUM"] = "sum of list";
-Blockly.Msg["MATH_ONLIST_TOOLTIP_AVERAGE"] = "Return the average (arithmetic mean) of the numeric values in the list.";
-Blockly.Msg["MATH_ONLIST_TOOLTIP_MAX"] = "Return the largest number in the list.";
-Blockly.Msg["MATH_ONLIST_TOOLTIP_MEDIAN"] = "Return the median number in the list.";
-Blockly.Msg["MATH_ONLIST_TOOLTIP_MIN"] = "Return the smallest number in the list.";
-Blockly.Msg["MATH_ONLIST_TOOLTIP_MODE"] = "Return a list of the most common item(s) in the list.";
-Blockly.Msg["MATH_ONLIST_TOOLTIP_RANDOM"] = "Return a random element from the list.";
-Blockly.Msg["MATH_ONLIST_TOOLTIP_STD_DEV"] = "Return the standard deviation of the list.";
-Blockly.Msg["MATH_ONLIST_TOOLTIP_SUM"] = "Return the sum of all the numbers in the list.";
-Blockly.Msg["MATH_POWER_SYMBOL"] = "^";
-Blockly.Msg["MATH_RANDOM_FLOAT_HELPURL"] = "https://en.wikipedia.org/wiki/Random_number_generation";
-Blockly.Msg["MATH_RANDOM_FLOAT_TITLE_RANDOM"] = "random fraction";
-Blockly.Msg["MATH_RANDOM_FLOAT_TOOLTIP"] = "Return a random fraction between 0.0 (inclusive) and 1.0 (exclusive).";
-Blockly.Msg["MATH_RANDOM_INT_HELPURL"] = "https://en.wikipedia.org/wiki/Random_number_generation";
-Blockly.Msg["MATH_RANDOM_INT_TITLE"] = "random integer from %1 to %2";
-Blockly.Msg["MATH_RANDOM_INT_TOOLTIP"] = "Return a random integer between the two specified limits, inclusive.";
-Blockly.Msg["MATH_ROUND_HELPURL"] = "https://en.wikipedia.org/wiki/Rounding";
-Blockly.Msg["MATH_ROUND_OPERATOR_ROUND"] = "round";
-Blockly.Msg["MATH_ROUND_OPERATOR_ROUNDDOWN"] = "round down";
-Blockly.Msg["MATH_ROUND_OPERATOR_ROUNDUP"] = "round up";
-Blockly.Msg["MATH_ROUND_TOOLTIP"] = "Round a number up or down.";
-Blockly.Msg["MATH_SINGLE_HELPURL"] = "https://en.wikipedia.org/wiki/Square_root";
-Blockly.Msg["MATH_SINGLE_OP_ABSOLUTE"] = "absolute";
-Blockly.Msg["MATH_SINGLE_OP_ROOT"] = "square root";
-Blockly.Msg["MATH_SINGLE_TOOLTIP_ABS"] = "Return the absolute value of a number.";
-Blockly.Msg["MATH_SINGLE_TOOLTIP_EXP"] = "Return e to the power of a number.";
-Blockly.Msg["MATH_SINGLE_TOOLTIP_LN"] = "Return the natural logarithm of a number.";
-Blockly.Msg["MATH_SINGLE_TOOLTIP_LOG10"] = "Return the base 10 logarithm of a number.";
-Blockly.Msg["MATH_SINGLE_TOOLTIP_NEG"] = "Return the negation of a number.";
-Blockly.Msg["MATH_SINGLE_TOOLTIP_POW10"] = "Return 10 to the power of a number.";
-Blockly.Msg["MATH_SINGLE_TOOLTIP_ROOT"] = "Return the square root of a number.";
-Blockly.Msg["MATH_SUBTRACTION_SYMBOL"] = "-";
-Blockly.Msg["MATH_TRIG_ACOS"] = "acos";
-Blockly.Msg["MATH_TRIG_ASIN"] = "asin";
-Blockly.Msg["MATH_TRIG_ATAN"] = "atan";
-Blockly.Msg["MATH_TRIG_COS"] = "cos";
-Blockly.Msg["MATH_TRIG_HELPURL"] = "https://en.wikipedia.org/wiki/Trigonometric_functions";
-Blockly.Msg["MATH_TRIG_SIN"] = "sin";
-Blockly.Msg["MATH_TRIG_TAN"] = "tan";
-Blockly.Msg["MATH_TRIG_TOOLTIP_ACOS"] = "Return the arccosine of a number.";
-Blockly.Msg["MATH_TRIG_TOOLTIP_ASIN"] = "Return the arcsine of a number.";
-Blockly.Msg["MATH_TRIG_TOOLTIP_ATAN"] = "Return the arctangent of a number.";
-Blockly.Msg["MATH_TRIG_TOOLTIP_COS"] = "Return the cosine of a degree (not radian).";
-Blockly.Msg["MATH_TRIG_TOOLTIP_SIN"] = "Return the sine of a degree (not radian).";
-Blockly.Msg["MATH_TRIG_TOOLTIP_TAN"] = "Return the tangent of a degree (not radian).";
-Blockly.Msg["MATH_MAP"] = "Change the value %1 from [%2 à %3] to [%4 à %5]";
-Blockly.Msg["MATH_MAP_TOOLTIP"] = "Allows you to transform a value proportionally. For example 'Transform value 5 from [0 to 10] to [0 to 100]' will return 50.";
-Blockly.Msg["MATH_CHANGE_TITLE_ITEM"] = Blockly.Msg["VARIABLES_DEFAULT_NAME"];
+//categories
+var MSG = {
+    title: "Code",
+    blocks: "Blocks",
+    linkTooltip: "Save and link to blocks.",
+    runTooltip: "Run the program defined by the blocks in the workspace.",
+    badCode: "Program error:\n%1",
+    timeout: "Maximum execution iterations exceeded.",
+    trashTooltip: "Discard all blocks.",
+    catDisplay: "Display",
+    catInput: "Input/Output",
+    catSensors: "Sensors",
+    catCommunication: "Communication",
+    catActuators: "Actuators",
+    catRobots: "Robots",
+    catLogic: "Logic",
+    catLoops: "Loops",
+    catMath: "Math",
+    catText: "Text",
+    catLists: "Lists",
+    catColour: "Colour",
+    catVariables: "Variables",
+    catFunctions: "Functions",
+    catAddblock: "Add block",
+    listVariable: "list",
+    textVariable: "text",
+    httpRequestError: "There was a problem with the request.",
+    linkAlert: "Share your blocks with this link:\n\n%1",
+    hashError: "Sorry, '%1' doesn't correspond with any saved program.",
+    xmlError: "Could not load your saved file. Perhaps it was created with a different version of Blockly?",
+    badXml: "Error parsing XML:\n%1\n\nSelect 'OK' to abandon your changes or 'Cancel' to further edit the XML."
+};
+
+Blockly.Msg["SUBCATEGORY_DISPLAYS"] = "Screens";
+Blockly.Msg["SUBCATEGORY_LED_MODULES"] = "LED modules";
+Blockly.Msg["SUBCATEGORY_ARDUINO"] = "Arduino";
+Blockly.Msg["SUBCATEGORY_EXTERNAL_MODULES"] = "External modules";
+Blockly.Msg["SUBCATEGORY_PINS"] = "Pins";
+Blockly.Msg["SUBCATEGORY_SERIAL_CONNECTION"] = "Serial connection";
+Blockly.Msg["SUBCATEGORY_DATA_LOGGING"] = "Data logging";
+Blockly.Msg["SUBCATEGORY_WIRELESS_COMMUNICATION"] = "Wireless communication";
+Blockly.Msg["SUBCATEGORY_SENSORS_GAS"] = "Gas sensors";
+Blockly.Msg["SUBCATEGORY_SENSORS_CLIMATE"] = "Climate sensors";
+Blockly.Msg["SUBCATEGORY_SENSORS_SOUNDLIGHT"] = "Sound & Light sensors";
+Blockly.Msg["SUBCATEGORY_SENSORS_DISTANCEMOVEMENT"] = "Distance & Motion sensors";
+Blockly.Msg["SUBCATEGORY_SENSORS_OTHER"] = "Other sensors";
+Blockly.Msg["SUBCATEGORY_ROBOTS_MBOT"] = "mBot - Basic modules";
+Blockly.Msg["SUBCATEGORY_ROBOTS_MAKEBLOCK_SENSORS"] = "Makeblock - Sensors";
 
 //Text
 Blockly.Msg["TEXT_COMMENT"] = "Comment %1";
 Blockly.Msg["TEXT_COMMENT_TOOLTIP"] = "Add comment in code.";
 
 // Variables
-Blockly.Msg["VARIABLES_GET_CREATE_SET"] = "Create 'set %1'";
-Blockly.Msg["VARIABLES_GET_HELPURL"] = "https://github.com/google/blockly/wiki/Variables#get";
-Blockly.Msg["VARIABLES_GET_TOOLTIP"] = "Returns the value of this variable.";
-Blockly.Msg["VARIABLES_SET"] = "set %1 to %2";
-Blockly.Msg["VARIABLES_SET_CREATE_GET"] = "Create 'get %1'";
-Blockly.Msg["VARIABLES_SET_HELPURL"] = "https://github.com/google/blockly/wiki/Variables#set";
-Blockly.Msg["VARIABLES_SET_TOOLTIP"] = "Sets this variable to be equal to the input.";
-Blockly.Msg["VARIABLE_ALREADY_EXISTS"] = "A variable named '%1' already exists.";
-Blockly.Msg["VARIABLE_ALREADY_EXISTS_FOR_ANOTHER_TYPE"] = "A variable named '%1' already exists for another type: '%2'.";
 Blockly.Msg.VARIABLE_INCREMENT_ITEM = Blockly.Msg.VARIABLES_DEFAULT_NAME;
 Blockly.Msg.VARIABLE_INCREMENT = "change %1 by %2";
 Blockly.Msg.VARIABLE_INCREMENT_TOOLTIP = "Add a number to variable '%1'.";
