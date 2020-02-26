@@ -1,0 +1,5 @@
+//Structure of vittablockly directory
+//core =>blockly.compressed, for colors, behaviour like the warnings, etc
+//blocks =>block.compressed, for the block behavior
+//generator =>generator.compressed, for the code generated
+//msg ==>all translations
